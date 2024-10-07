@@ -1,0 +1,56 @@
+body {
+    margin: 20px 0 20px 20px;
+    background: rgb(112, 25, 25);
+    
+}
+
+
+img {
+   width: 30%;
+    border: 4px solid rgb(245, 245, 80);
+    border-radius: 20px;
+    
+}
+
+input {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid rgb(245, 245, 80);
+    border-radius: 10px;
+    background: none;
+    width: 140px;
+
+}
+
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background:  rgb(112, 25, 25);
+    width: 160px;
+    background: rgb(245, 245, 80) ;
+    color: rgb(112, 25, 25);
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+
+}
+
+
+::placeholder {
+    color: rgb(245, 245, 80);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: rgb(245, 245, 80);
+}
+
+.words {
+    color: rgb(245, 245, 80);
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+}
